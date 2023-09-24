@@ -91,7 +91,7 @@ class _LogState extends State<Log> {
           ),
           GestureDetector(
             onTap: (){
-           context.go('/si');
+          // context.go('/si');
            Navigator.of(context).push(MaterialPageRoute(builder: (context){
              return SignUp();
            }));
